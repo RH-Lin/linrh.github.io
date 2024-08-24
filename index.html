@@ -132,13 +132,9 @@
                 <br>
             </p></li>
         </ul>
-        <details open>
-        <summary><strong>Co-Author Publications:</strong></summary>
-        <p> 1111111111<br><br> </p>
-        </details>
         
-        <strong>Co-Author Publications:</strong><br><br>
-        <span>
+        <details open>
+        <summary><strong>Co-Author Publications:</strong><br><br></summary>
         <ul> <!--<ol>-->
             <li><p>
                 <b>Mind the Inconsistent Semantics in Positive Pairs: Semantic Aligning and Multimodal Contrastive Learning for Text-based Pedestrian Search</b><br>
@@ -183,29 +179,7 @@
             </p></li>
             <br>
         </ul>
-        </span><a href="javascript:;" id="btn"> <<<Hide </a>
-        <script type="text/javascript">
-            //获取元素
-            var span = document.querySelector('span');
-            var btn = document.querySelector('btn');
-            //获取span中的内容
-            var str = span.innerText;
-            //截取部分内容连接上...
-            var sub = str.substring(0,10) + '...';
-            //设置开关
-            var onoff = true;
-            btn.onclick = function(){
-            	if(onoff){//判断是true 或 false 前者是收缩状态，后者是展开状态；
-            		span.innerText = sub;
-            		btn.innerText = '>>> Display';
-            	}else{
-            		span.innerText = str;
-            		btn.innerText = '<<< Hide';
-            	}
-            	//改变开关的值。
-            	onoff = !onoff;
-            }
-        </script>
+        </details>
     </div>
 
     <h2><hr><br><a name="experiences"></a>Projects/Research Experiences</h2>
